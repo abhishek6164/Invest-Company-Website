@@ -256,27 +256,66 @@ button:hover {
     padding-top: 5rem;
 }
 
-.menu{
+.menu {
     display: flex;
     max-width: 400px;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-.menu li{
+.menu li {
     width: 30%;
 }
 
 
-.footer-section{
+.footer-section {
     height: auto;
 }
 
-footer{
+footer {
     padding: 3rem;
 }
 
-.center{
+.center {
     justify-self: center;
 }
 
+.star-s2 {
+    position: absolute;
+    width: 65px;
+    right: -2%;
+
+}
+
+.star-s4 {
+    width: 65px;
+    position: absolute;
+    left: -2%;
+    margin-top: 2.5rem;
+
+}
+
+.star-s5 {
+position: absolute;
+left: 40%;
+width: 40px;
+}
+
+
+
+/* image upper nicche ho rhi hai uska animation ye rha  */
+.image{
+    animation:float 4s ease-in-out infinite
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
